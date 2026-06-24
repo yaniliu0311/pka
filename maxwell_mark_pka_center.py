@@ -8,7 +8,7 @@ def maxwell_velocity_sigma(temperature, mass_amu):
     """
     计算麦克斯韦-玻尔兹曼速度分布的标准差
     sigma = sqrt(kB * T / m)
-    返回单位: Å/fs
+    单位: Å/fs
     """
     k_B = 8.617333262145e-5  # eV/K
     # 1 amu = 1.66053906660e-27 kg
